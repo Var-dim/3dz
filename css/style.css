@@ -1,0 +1,21 @@
+body {
+    
+}
+.wrapper {
+    
+}
+ul {
+    list-style-type: none;    
+}
+nav {
+    background: #545454;
+}
+nav li {
+    
+    display: inline-block;
+    
+}
+aside li:hover {
+    margin-left: 20px;
+        
+}
