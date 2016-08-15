@@ -19,6 +19,7 @@ header {
 }
 
 h1> a {
+    margin-bottom: 40px;
     font-family: fantasy;
     font-size: 40px;
     text-decoration: none;
