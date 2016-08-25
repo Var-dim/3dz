@@ -13,9 +13,13 @@ body {
 
 header {
     font-size: 18px;
-    color: aliceblue;
+    
     margin-bottom: 40px;
     margin-top: 50px;
+}
+header li a {
+    color: aliceblue;
+    
 }
 
 h1> a {
@@ -45,7 +49,8 @@ nav li, footer li {
 }
 
 .active {
-    background-color: #545454; 
+    background-color: #545454;
+    
 }
 
 li {
@@ -75,6 +80,8 @@ aside li a{
 aside li a:hover {
     padding-left: 60px;
     background-color: #f9f9f9;
+    font-weight: 500;
+    
 }
 .content {
     
@@ -103,10 +110,15 @@ footer {
     background-color: #e1e1e1;
     width: 966px;
     height: 40px;
-    margin-bottom: 60px;
-    
+    display: table-cell;    
+        
 }
- .znak {
-    text-align: right;    
+footer ul {
+    width: 700px;
+    display: inline-block;
+}
+span  .znak {
+    display: inline-block;
+   margin-right: 25px;     
     
 }
